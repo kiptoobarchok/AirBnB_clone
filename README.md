@@ -2,7 +2,7 @@
 
 This task was done in teams of 2 :
 
-[Caleb](https://github.com/kiptoobarchok) and [Victor Ndudim]()
+[Kiptoo Caleb](https://github.com/kiptoobarchok) and [Victor Ndudim](https://github.com/Pa-vic)
 
 The goal of the project is to deploy on your server a simple copy of the [AirBnB website.](https://intranet.alxswe.com/rltoken/m8g02HcD2ovrl_K-zulYBw)
 
