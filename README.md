@@ -97,7 +97,7 @@ The console will be a tool to validate this storage engine
 
 This is a simple framework for writing line-oriented command line interpreters
 
-The cmd module contains one public class,***the Cmd class*** designed to be used as a base class for command processors such as interactive shells and other command interpreters.
+    The cmd module contains one public class,***the Cmd class*** designed to be used as a base class for command processors such as interactive shells and other command interpreters.
 
 Creating a command line interpreter is done by sub-classing the cmd.Cmd class.
 
