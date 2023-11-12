@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+A cmd instance
+Entry point of cmd interpreter
+"""
 import cmd
 
 
