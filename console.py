@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 A cmd instance
-Entry point 
+Entry point
 """
 import cmd
 
