@@ -95,6 +95,25 @@ The console will be a tool to validate this storage engine
 
 # Command Interpreter
 
+This is a simple framework for writing line-oriented command line interpreters
+
+The cmd module contains one public class, <the Cmd class> designed to be used as a base class for command processors such as interactive shells and other command interpreters.
+
+Creating a command line interpreter is done by sub-classing the cmd.Cmd class.
+
+By default it uses ***readline** for interactive prompt handling , command line editing and command completion
+
+## Advantages of cmd
+
+    >>portability almost any computer is able to drive a text terminal, so a command line interface can really run everywhere.
+
+    >>resources the CPU and memory cost of a command line interface is far lighter than a GUI library.
+
+    >>speed for advanced users, it's often faster to type a command than to dive into menus and windows.
+
+    >>development It is far faster to create a text oriented interface.
+
+    >>driving you can easily drive a text oriented program with the popen command. That means that the whole application can be tested automatically.
 
 
 # Contributors
