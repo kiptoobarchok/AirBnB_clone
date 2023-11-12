@@ -1,13 +1,13 @@
 #!/usr/python3
 import unittest
 from datetime import datetime
-
 from models.base_model import BaseModel
+
 
 class TestBaseModel(unittest.TestCase):
     def setUp(self):
         """Create an instance of BaseModel for testing"""
-        
+
         self.base_model = BaseModel()
 
     def test_attributes(self):
@@ -47,8 +47,14 @@ class TestBaseModel(unittest.TestCase):
 
         """Check if the values match the instance attributes"""
         self.assertEqual(model_dict['id'], self.base_model.id)
-        self.assertEqual(model_dict['created_at'], self.base_model.created_at.isoformat())
-        self.assertEqual(model_dict['updated_at'], self.base_model.updated_at.isoformat())
+        self.assertEqual(
+            model_dict['created_at'],
+            self.base_model.created_at.isoformat()
+            )
+        self.assertEqual(
+            model_dict['updated_at'],
+            self.base_model.updated_at.isoformat()
+            )
         self.assertEqual(model_dict['__class__'], 'BaseModel')
 
     def test_str_method(self):
@@ -58,6 +64,7 @@ class TestBaseModel(unittest.TestCase):
         """Check if the string contains the class name and id"""
         self.assertIn('BaseModel', model_str)
         self.assertIn(self.base_model.id, model_str)
+
 
 if __name__ == '__main__':
     unittest.main()
