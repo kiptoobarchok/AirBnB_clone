@@ -21,10 +21,7 @@ After 4 months, we will have a complete web application composed by:
 
 ## Final product
 
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/fe2e3e7701dec72ce612472dab9bb55fe0e9f6d4.png?X-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DAKIARDDGGGOUSBVO6H7D%252F20231109%252Fus-east-1%252Fs3%252Faws4_request%2526X-Amz-Date%253D20231109T174244Z%2526X-Amz-Expires%253D86400%2526X-Amz-SignedHeaders%253Dhost%2526X-Amz-Signature%253Df30ebb3a4fb5fb52b48b8de0c9f9c5e913abe75a0bc85a5c7979021e03a4f167)
-
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/da2584da58f1d99a72f0a4d8d22c1e485468f941.png?X-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DAKIARDDGGGOUSBVO6H7D%252F20231109%252Fus-east-1%252Fs3%252Faws4_request%2526X-Amz-Date%253D20231109T174244Z%2526X-Amz-Expires%253D86400%2526X-Amz-SignedHeaders%253Dhost%2526X-Amz-Signature%253Dd8b78dc50896cd60070c08c248732a8d67f7a8a9c45b5eb39be2851517524c83)
+![Alt text](hbnb_screenshot.png)
 
 
 # Concepts to learn
