@@ -3,6 +3,7 @@ import json
 import uuid
 from datetime import datetime
 
+
 class BaseModel():
     "define base class"
     def __init__(self, *args, **kwargs):
@@ -14,13 +15,13 @@ class BaseModel():
 
                 if key != '__class__':
                     setattr(self, key, value)
-            
+
             if 'id' not in kwargs:
                 self.id = str(uuid.uuid4())
 
             if 'created_at' not in kwargs:
-                self.created_at  = datetime.now()
-            
+                self.created_at = datetime.now()
+
             if 'updated_at' not in kwargs:
                 self.updated_at = datetime.now()
 
@@ -32,13 +33,11 @@ class BaseModel():
     def __str__(self):
         "return a string representation"
         return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"
-    
+
     def save(self):
         "update"
         self.updated_at = datetime.now()
 
-    
-    
     def to_dict(self):
         """Return a dictionary representation of the BaseModel instance."""
         class_name = self.__class__.__name__
