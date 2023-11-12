@@ -2,8 +2,6 @@
 
 This task was done in teams of 2 :
 
-[Kiptoo Caleb](https://github.com/kiptoobarchok) and [Victor Ndudim](https://github.com/Pa-vic)
-
 The goal of the project is to deploy on your server a simple copy of the [AirBnB website.](https://intranet.alxswe.com/rltoken/m8g02HcD2ovrl_K-zulYBw)
 
 We won’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track.
@@ -92,8 +90,15 @@ The console will be a tool to validate this storage engine
 
     >load objects from the client side by using your own RESTful API
 
-![Alt text](<Screenshot from 2023-11-12 14-14-00-1.png>)
+![Alt text](<Screenshot from 2023-11-12 14-21-58.png>)
 
 
 # Command Interpreter
 
+
+
+# Contributors
+
+[Kiptoo Caleb](https://github.com/kiptoobarchok)
+
+[Victor Ndudim](https://github.com/Pa-vic)
