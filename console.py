@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 A cmd instance
-Entry point of cmd interpreter
+Entry point 
 """
 import cmd
 
@@ -19,7 +19,7 @@ class HBNBCommand(cmd.Cmd):
         "Quit command to exit the program"
         return True
 
-    def empty_line(self):
+    def emptyline(self):
         "do nothing on empty line"
         pass
 
