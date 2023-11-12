@@ -54,7 +54,7 @@ This abstraction will also allow us to change the type of storage easily without
 
 The console will be a tool to validate this storage engine
 
-![Alt text](<Screenshot from 2023-11-09 21-46-06-1.png>)
+![Alt text](<Screenshot from 2023-11-12 14-26-53.png>)
 
 
 ## The Web Static
