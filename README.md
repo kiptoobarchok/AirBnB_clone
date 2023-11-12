@@ -56,7 +56,7 @@ This abstraction will also allow us to change the type of storage easily without
 
 The console will be a tool to validate this storage engine
 
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DAKIARDDGGGOUSBVO6H7D%252F20231109%252Fus-east-1%252Fs3%252Faws4_request%2526X-Amz-Date%253D20231109T174244Z%2526X-Amz-Expires%253D86400%2526X-Amz-SignedHeaders%253Dhost%2526X-Amz-Signature%253D453399e4e1fb17e093852d4fbea5be60e5c5c1eb400852561683d274e4d8eed6)
+![Alt text](<Screenshot from 2023-11-09 21-46-06-1.png>)
 
 
 ## The Web Static
@@ -67,7 +67,6 @@ The console will be a tool to validate this storage engine
 
     >create template of each object
 
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/87c01524ada6080f40fc.png?X-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DAKIARDDGGGOUSBVO6H7D%252F20231109%252Fus-east-1%252Fs3%252Faws4_request%2526X-Amz-Date%253D20231109T174244Z%2526X-Amz-Expires%253D86400%2526X-Amz-SignedHeaders%253Dhost%2526X-Amz-Signature%253D1156337be697ba621f41cc0746723fda19c7338ee27213fae00a98282ab891b7)
 
 ## MySQL storage
 
@@ -81,15 +80,11 @@ The console will be a tool to validate this storage engine
 
     >make our static HTML file dynamic by using objects stored in a file or database
 
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/cb778ec8a13acecb53ef.png?X-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DAKIARDDGGGOUSBVO6H7D%252F20231109%252Fus-east-1%252Fs3%252Faws4_request%2526X-Amz-Date%253D20231109T174244Z%2526X-Amz-Expires%253D86400%2526X-Amz-SignedHeaders%253Dhost%2526X-Amz-Signature%253D377f860a3fb771449c53d64c66d78bb6c0549fca6eaa26c88a7af4259e75148d)
-
 ## RESTful API
 
     >expose all your objects stored via a JSON web interface
 
     >manipulate your objects via a RESTful API
-
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/06fccc41df40ab8f9d49.png?X-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DAKIARDDGGGOUSBVO6H7D%252F20231109%252Fus-east-1%252Fs3%252Faws4_request%2526X-Amz-Date%253D20231109T174244Z%2526X-Amz-Expires%253D86400%2526X-Amz-SignedHeaders%253Dhost%2526X-Amz-Signature%253Db7c643eae6628848cc75629587f473b00b134e842a55ef35b99b6a9fa38eabbf)
 
 
 ## Web dynamic
@@ -97,7 +92,7 @@ The console will be a tool to validate this storage engine
 
     >load objects from the client side by using your own RESTful API
 
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/d2d06462824fab5846f3.png?X-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DAKIARDDGGGOUSBVO6H7D%252F20231109%252Fus-east-1%252Fs3%252Faws4_request%2526X-Amz-Date%253D20231109T174244Z%2526X-Amz-Expires%253D86400%2526X-Amz-SignedHeaders%253Dhost%2526X-Amz-Signature%253Dbef20efcc0bed622777f08e23a4e48a6ec104b80815a0d51840f14dd7e57803c)
+![Alt text](<Screenshot from 2023-11-12 14-14-00-1.png>)
 
 
 # Command Interpreter
