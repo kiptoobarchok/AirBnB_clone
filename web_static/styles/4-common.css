@@ -1,0 +1,25 @@
+body {
+    font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #484848;
+    align-self: center;  
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 1000px;
+    margin-top: 30px;
+    width: 60%;
+
+}
+
+strong {
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family:  Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
