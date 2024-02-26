@@ -1,28 +1,26 @@
 #!/usr/bin/python3
 """
-A cmd instance
-Entry point
+Custom command line interpreter
 """
 import cmd
 
 
 class HBNBCommand(cmd.Cmd):
-    "command line interpreter"
-    prompt = '(hbnb) '
-
+    """
+    Contains entry point of command interpreter
+    """
     def do_EOF(self, line):
-        "Exit"
+        "Exit the command line interpreter"
         print("")
         return True
-
+    
     def do_quit(self, line):
         "Quit command to exit the program"
         return True
+    
+    def do_create(self, line):
+        "create new instance of BaseModel"
 
-    def emptyline(self):
-        "do nothing on empty line"
-        pass
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     HBNBCommand().cmdloop()
