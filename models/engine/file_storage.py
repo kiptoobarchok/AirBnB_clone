@@ -10,11 +10,10 @@ class FileStorage:
     __file_path = "file.json"
     __objects = {}
 
-    def __init__(self, file_path=None):
-        "initializes file storage class"
-        if file_path:
-            self.__file_path = file_path
-        self.reload()
+    def new(self, obj):
+        """Set in __objects obj with key <obj_class_name>.id"""
+        ocname = obj.__class__.__name__
+        FileStorage.__objects["{}.{}".format(ocname, obj.id)] = obj
 
     def all(self):
         """returns dictionary of models in storage"""
